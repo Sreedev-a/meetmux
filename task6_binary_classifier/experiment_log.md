@@ -1,23 +1,32 @@
 # Experiment Log
 
-## Dataset
+Dataset:
 Breast Cancer Wisconsin Dataset
 
-## Model
-Random Forest Classifier
+Model:
+Logistic Regression
 
-## Engineered Features
-- mean_radius_area
-- radius_perimeter_ratio
+Validation Metrics
 
-## Feature Importance
-Top 10 important features were extracted using Random Forest feature importance.
+Precision: 0.98
 
-## Leakage Check
-No target information was used during feature engineering.
+Recall: 0.97
 
-## Baseline Feature Set
-Selected after importance analysis.
+F1 Score: 0.98
 
-## Next Improvement
-Create additional domain-specific features and compare model performance.
+Threshold:
+0.50
+
+Observations
+
+The classifier produced high precision and recall on the validation dataset.
+
+Confusion matrix showed very few false positives and false negatives.
+
+Next Improvements
+
+Try Random Forest.
+
+Tune classification threshold.
+
+Perform cross-validation.
