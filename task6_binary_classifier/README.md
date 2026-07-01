@@ -1,8 +1,8 @@
-# Task 6 – Binary Classifier
+# Task 7 – Feature Engineering
 
 ## Objective
 
-Build a binary classifier and evaluate it using multiple metrics.
+Create useful features from raw data and evaluate their importance.
 
 ## Dataset
 
@@ -10,24 +10,15 @@ Breast Cancer Wisconsin Dataset
 
 ## Model
 
-Logistic Regression
+Random Forest Classifier
 
-## Metrics
+## Engineered Features
 
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- ROC Curve
+- Mean Radius × Mean Area
+- Radius / Perimeter Ratio
 
-## Threshold
+## Outputs
 
-0.50
-
-## Tools
-
-Python
-
-Scikit-learn
-
-Matplotlib
+- Feature Importance Plot
+- Experiment Log
+- Leakage Check
