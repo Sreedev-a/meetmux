@@ -1,0 +1,4 @@
+Model,Mean Accuracy,Standard Deviation
+Logistic Regression,1.0,0.0
+Decision Tree,0.95,0.09999999999999999
+Random Forest,1.0,0.0
