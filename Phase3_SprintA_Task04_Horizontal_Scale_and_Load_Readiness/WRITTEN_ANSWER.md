@@ -1,0 +1,3 @@
+# Horizontal Scale & Load Readiness
+
+I load-tested the inference path at increasing real local concurrency, measuring achieved QPS, p95, fallback rate, and quality. A bounded eight-slot service exposes the first degraded level instead of hiding overload in an unbounded queue. The target level must pass the 100 ms/1% fallback SLO; above capacity, cached eligible rankings return with an explicit overload reason. The generated report identifies the exact local breaking point and headroom, while the scaling plan translates the result into autoscaling, cache/precompute, queue, deadline, and DevOps requirements.

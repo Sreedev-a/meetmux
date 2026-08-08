@@ -1,0 +1,94 @@
+{
+  "environment": "local measured load fixture",
+  "capacity_slots": 8,
+  "target_concurrency": 8,
+  "slo": {
+    "p95_latency_ms": 100,
+    "max_fallback_rate": 0.01
+  },
+  "levels": [
+    {
+      "concurrency": 1,
+      "requests": 30,
+      "duration_s": 0.149778,
+      "achieved_qps": 200.296,
+      "p95_latency_ms": 5.0258,
+      "fallback_rate": 0.0,
+      "mean_quality": 0.92,
+      "slo_pass": true
+    },
+    {
+      "concurrency": 2,
+      "requests": 60,
+      "duration_s": 0.153564,
+      "achieved_qps": 390.717,
+      "p95_latency_ms": 5.0689,
+      "fallback_rate": 0.0,
+      "mean_quality": 0.92,
+      "slo_pass": true
+    },
+    {
+      "concurrency": 4,
+      "requests": 120,
+      "duration_s": 0.156438,
+      "achieved_qps": 767.078,
+      "p95_latency_ms": 5.1155,
+      "fallback_rate": 0.0,
+      "mean_quality": 0.92,
+      "slo_pass": true
+    },
+    {
+      "concurrency": 8,
+      "requests": 240,
+      "duration_s": 0.165413,
+      "achieved_qps": 1450.914,
+      "p95_latency_ms": 5.1595,
+      "fallback_rate": 0.0,
+      "mean_quality": 0.92,
+      "slo_pass": true
+    },
+    {
+      "concurrency": 16,
+      "requests": 480,
+      "duration_s": 0.167315,
+      "achieved_qps": 2868.849,
+      "p95_latency_ms": 5.1154,
+      "fallback_rate": 0.5,
+      "mean_quality": 0.87,
+      "slo_pass": false
+    },
+    {
+      "concurrency": 32,
+      "requests": 960,
+      "duration_s": 0.172419,
+      "achieved_qps": 5567.835,
+      "p95_latency_ms": 5.0911,
+      "fallback_rate": 0.75,
+      "mean_quality": 0.845,
+      "slo_pass": false
+    }
+  ],
+  "last_healthy": {
+    "concurrency": 8,
+    "requests": 240,
+    "duration_s": 0.165413,
+    "achieved_qps": 1450.914,
+    "p95_latency_ms": 5.1595,
+    "fallback_rate": 0.0,
+    "mean_quality": 0.92,
+    "slo_pass": true
+  },
+  "breaking_point": {
+    "concurrency": 16,
+    "requests": 480,
+    "duration_s": 0.167315,
+    "achieved_qps": 2868.849,
+    "p95_latency_ms": 5.1154,
+    "fallback_rate": 0.5,
+    "mean_quality": 0.87,
+    "slo_pass": false
+  },
+  "concurrency_headroom_percent": 100.0,
+  "target_qps": 1450.914,
+  "fallback_verified": true
+}
