@@ -1,0 +1,75 @@
+{
+  "objective": "maximize conversion_at_3 with precision_at_3 >= 0.6667",
+  "trials": [
+    {
+      "weight": 0,
+      "precision_at_3": 0.6666666666666666,
+      "conversion_at_3": 1.0,
+      "top_items": [
+        "j4",
+        "j2",
+        "j3"
+      ]
+    },
+    {
+      "weight": 0.2,
+      "precision_at_3": 0.6666666666666666,
+      "conversion_at_3": 1.0,
+      "top_items": [
+        "j4",
+        "j2",
+        "j3"
+      ]
+    },
+    {
+      "weight": 0.4,
+      "precision_at_3": 0.6666666666666666,
+      "conversion_at_3": 1.0,
+      "top_items": [
+        "j2",
+        "j4",
+        "j3"
+      ]
+    },
+    {
+      "weight": 0.6,
+      "precision_at_3": 0.6666666666666666,
+      "conversion_at_3": 1.0,
+      "top_items": [
+        "j2",
+        "j3",
+        "j4"
+      ]
+    },
+    {
+      "weight": 0.8,
+      "precision_at_3": 1.0,
+      "conversion_at_3": 0.6666666666666666,
+      "top_items": [
+        "j2",
+        "j1",
+        "j3"
+      ]
+    },
+    {
+      "weight": 1,
+      "precision_at_3": 1.0,
+      "conversion_at_3": 0.6666666666666666,
+      "top_items": [
+        "j1",
+        "j2",
+        "j3"
+      ]
+    }
+  ],
+  "selected": {
+    "weight": 0.6,
+    "precision_at_3": 0.6666666666666666,
+    "conversion_at_3": 1.0,
+    "top_items": [
+      "j2",
+      "j3",
+      "j4"
+    ]
+  }
+}
