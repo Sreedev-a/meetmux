@@ -1,0 +1,9 @@
+{
+  "request_id": "req_demo_001",
+  "student": {"student_id":"stu_101","verified_skills":{"python":88,"sql":75},"years_experience":1.5,"preferred_locations":["Bengaluru"],"work_modes":["hybrid","remote"],"expected_salary_lpa":7.0},
+  "jobs": [
+    {"job_id":"job_201","company_id":"co_10","required_skills":{"python":70,"sql":65},"optional_skills":{"fastapi":50},"minimum_experience":1,"locations":["Bengaluru"],"work_mode":"hybrid","salary_lpa":8.0},
+    {"job_id":"job_202","company_id":"co_11","required_skills":{"python":90},"optional_skills":{},"minimum_experience":2,"locations":["Pune"],"work_mode":"onsite","salary_lpa":9.0}
+  ],
+  "limit": 10
+}
