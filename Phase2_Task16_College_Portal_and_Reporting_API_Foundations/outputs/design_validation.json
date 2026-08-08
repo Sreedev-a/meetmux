@@ -1,0 +1,17 @@
+{
+  "design_version": "1.0.0",
+  "valid": true,
+  "errors": [],
+  "components": [
+    "candidate_sources",
+    "fallback",
+    "features",
+    "guardrails",
+    "hard_filters",
+    "objective",
+    "offline_metrics",
+    "version",
+    "weights"
+  ],
+  "rollout": "shadow -> 10% -> 50% -> 100% with guardrail gates"
+}
