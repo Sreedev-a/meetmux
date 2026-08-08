@@ -1,0 +1,37 @@
+{
+  "groups": {
+    "A": {
+      "n": 300,
+      "selection_rate": 0.5,
+      "true_positive_rate": 0.927152,
+      "false_positive_rate": 0.067114,
+      "accuracy": 0.93
+    },
+    "B": {
+      "n": 300,
+      "selection_rate": 0.523333,
+      "true_positive_rate": 0.949686,
+      "false_positive_rate": 0.042553,
+      "accuracy": 0.953333
+    }
+  },
+  "summary": {
+    "overall_accuracy": 0.941667,
+    "disparate_impact_ratio": 0.955415,
+    "equal_opportunity_gap": 0.022534,
+    "false_positive_rate_gap": 0.024561
+  },
+  "checks": {
+    "minimum_200_per_group": true,
+    "accuracy_at_least_0_80": true,
+    "disparate_impact_at_least_0_80": true,
+    "equal_opportunity_gap_at_most_0_10": true,
+    "false_positive_gap_at_most_0_10": true
+  },
+  "approved": true,
+  "dataset": "deterministic local fallback fixture",
+  "seed": 42,
+  "model_version": "2.0.0",
+  "owner": "ML Reliability Owner",
+  "artifact_sha256": "fe2f66371a91604862afb940cb9496ed7257302146edd6ecaed023bb6ff48407"
+}

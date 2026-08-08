@@ -1,0 +1,3 @@
+# Launch Rehearsal
+
+I closed the recommendation model fairness audit with a fail-closed sign-off covering sample sufficiency, overall accuracy, disparate impact, equal opportunity, false-positive parity, artifact integrity, ownership, and rollback conditions. The evaluation is reproducible and generates candidate-level data, group metrics, a fairness plot, and a signed model record. Sensitive groups are used only for offline auditing and never as recommendation features. Because no production decision log was available, the recorded decision approves a controlled launch rehearsal—not unrestricted production—and requires production monitoring before broader release.
