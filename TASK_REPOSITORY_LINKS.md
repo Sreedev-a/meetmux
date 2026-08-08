@@ -4,7 +4,7 @@ Repository: [Sreedev-a/meetmux](https://github.com/Sreedev-a/meetmux)
 
 Branch: `main`
 
-| Phase | Task | Title | Task folder | Commit |
+| Series / phase | Task | Title | Task folder | Commit |
 |---:|---:|---|---|---|
 | 1 | 19 | Application Model Serializing | [Phase1_Task19_Application_Model_Serializing](https://github.com/Sreedev-a/meetmux/tree/main/Phase1_Task19_Application_Model_Serializing) | `dd74d05` |
 | 1 | 20 | End-to-End Pipelines & Deployment | [Phase1_Task20_End_to_End_Pipelines_and_Deployment](https://github.com/Sreedev-a/meetmux/tree/main/Phase1_Task20_End_to_End_Pipelines_and_Deployment) | `203145a` |
@@ -31,3 +31,10 @@ Branch: `main`
 | 3 | 21 | DPDP Consent & Security Foundations | [Phase3_Task21_DPDP_Consent_and_Security_Foundations](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_Task21_DPDP_Consent_and_Security_Foundations) | `ec56ad4` |
 | 3 | 22 | Data-Subject Rights & Resilience | [Phase3_Task22_Data_Subject_Rights_and_Resilience](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_Task22_Data_Subject_Rights_and_Resilience) | `4b0617e` |
 | 3 | 23 | Hardening, Scale & MLOps | [Phase3_Task23_Hardening_Scale_and_MLOps](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_Task23_Hardening_Scale_and_MLOps) | `fb6bfb7` |
+| Phase 3 — Week 6 closeout | 24 | Launch Rehearsal | [Phase3_Task24_Launch_Rehearsal](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_Task24_Launch_Rehearsal) | `158c941` |
+| Phase 3 — Week 6 closeout | 25 | Go-Live | [Phase3_Task25_Go_Live](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_Task25_Go_Live) | `8acbaa7` |
+| Phase 3 — Sprint A | 1 | Post-Launch Health, Incident Command & Sprint Planning | [Phase3_SprintA_Task01_Post_Launch_Health_Incident_Command_and_Sprint_Planning](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_SprintA_Task01_Post_Launch_Health_Incident_Command_and_Sprint_Planning) | `06b009c` |
+| Phase 3 — Sprint A | 2 | Observability Deep-Dive, SLOs & Error Budgets | [Phase3_SprintA_Task02_Observability_Deep_Dive_SLOs_and_Error_Budgets](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_SprintA_Task02_Observability_Deep_Dive_SLOs_and_Error_Budgets) | `d35f5e3` |
+| Phase 3 — Sprint A | 3 | Performance Profiling & Bottleneck Elimination | [Phase3_SprintA_Task03_Performance_Profiling_and_Bottleneck_Elimination](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_SprintA_Task03_Performance_Profiling_and_Bottleneck_Elimination) | `8b0d444` |
+| Phase 3 — Sprint A | 4 | Horizontal Scale & Load Readiness | [Phase3_SprintA_Task04_Horizontal_Scale_and_Load_Readiness](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_SprintA_Task04_Horizontal_Scale_and_Load_Readiness) | `1481f19` |
+| Phase 3 — Sprint A | 5 | Reliability Sign-off & Scale Integration | [Phase3_SprintA_Task05_Reliability_Sign_off_and_Scale_Integration](https://github.com/Sreedev-a/meetmux/tree/main/Phase3_SprintA_Task05_Reliability_Sign_off_and_Scale_Integration) | `398593d` |
