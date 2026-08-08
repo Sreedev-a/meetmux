@@ -1,0 +1,49 @@
+{
+  "per_user": [
+    {
+      "user_id": "u1",
+      "segment": "fresher",
+      "ndcg_at_3": 0.7654,
+      "recall_at_3": 0.6667,
+      "results": 4
+    },
+    {
+      "user_id": "u2",
+      "segment": "fresher",
+      "ndcg_at_3": 0.9197,
+      "recall_at_3": 1.0,
+      "results": 4
+    },
+    {
+      "user_id": "u3",
+      "segment": "experienced",
+      "ndcg_at_3": 1.0,
+      "recall_at_3": 1.0,
+      "results": 3
+    },
+    {
+      "user_id": "u4",
+      "segment": "experienced",
+      "ndcg_at_3": 0.9197,
+      "recall_at_3": 1.0,
+      "results": 3
+    }
+  ],
+  "segments": {
+    "experienced": 0.9598,
+    "fresher": 0.8425
+  },
+  "aggregate": {
+    "ndcg_at_3": 0.9012,
+    "recall_at_3": 0.9167,
+    "coverage": 1.0,
+    "empty_result_rate": 0.0
+  },
+  "gates": {
+    "ndcg>=0.75": true,
+    "recall>=0.75": true,
+    "coverage>=0.95": true,
+    "segments>=0.70": true
+  },
+  "validated": true
+}

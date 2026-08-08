@@ -1,0 +1,15 @@
+user_id,segment,rank,item_id,relevant
+u1,fresher,1,j1,1
+u1,fresher,2,j2,1
+u1,fresher,3,j3,0
+u1,fresher,4,j4,1
+u2,fresher,1,j2,1
+u2,fresher,2,j1,0
+u2,fresher,3,j4,1
+u2,fresher,4,j3,0
+u3,experienced,1,j5,1
+u3,experienced,2,j2,1
+u3,experienced,3,j1,1
+u4,experienced,1,j4,1
+u4,experienced,2,j6,0
+u4,experienced,3,j2,1
