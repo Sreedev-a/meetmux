@@ -1,0 +1,79 @@
+{
+  "fixture": {
+    "jobs": 500,
+    "features": 12,
+    "seed": 303
+  },
+  "before": {
+    "iterations": 250,
+    "mean_ms": 1.410862,
+    "median_ms": 1.408917,
+    "p95_ms": 1.427625,
+    "max_ms": 1.527
+  },
+  "after": {
+    "iterations": 250,
+    "mean_ms": 0.599667,
+    "median_ms": 0.599041,
+    "p95_ms": 0.60975,
+    "max_ms": 0.618708
+  },
+  "speedup": 2.3527,
+  "p95_reduction_percent": 57.2892,
+  "cpu_seconds_per_million_requests": {
+    "before": 1410.862,
+    "after": 599.667
+  },
+  "quality": {
+    "top10_exact_match": true,
+    "max_score_delta": 0.0
+  },
+  "latency_slo_ms": 100,
+  "optimized_meets_slo": true,
+  "failure_path": {
+    "results": [
+      [
+        0.0,
+        "j0001"
+      ],
+      [
+        0.0,
+        "j0002"
+      ],
+      [
+        0.0,
+        "j0003"
+      ],
+      [
+        0.0,
+        "j0004"
+      ],
+      [
+        0.0,
+        "j0005"
+      ],
+      [
+        0.0,
+        "j0006"
+      ],
+      [
+        0.0,
+        "j0007"
+      ],
+      [
+        0.0,
+        "j0008"
+      ],
+      [
+        0.0,
+        "j0009"
+      ],
+      [
+        0.0,
+        "j0010"
+      ]
+    ],
+    "fallback": true,
+    "reason": "model_unavailable"
+  }
+}

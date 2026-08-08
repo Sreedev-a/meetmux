@@ -1,0 +1,13 @@
+         188041 function calls in 0.072 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.012    0.001    0.091    0.005 /Users/sreedev/Desktop/meetmux/Phase3_SprintA_Task03_Performance_Profiling_and_Bottleneck_Elimination/profile_optimize.py:8(baseline)
+    28200    0.042    0.000    0.072    0.000 {built-in method builtins.sum}
+   122200    0.011    0.000    0.011    0.000 /Users/sreedev/Desktop/meetmux/Phase3_SprintA_Task03_Performance_Profiling_and_Bottleneck_Elimination/profile_optimize.py:12(<genexpr>)
+       20    0.002    0.000    0.003    0.000 {built-in method builtins.sorted}
+    18800    0.002    0.000    0.002    0.000 {built-in method math.sqrt}
+     9400    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     9400    0.001    0.000    0.001    0.000 /Users/sreedev/Desktop/meetmux/Phase3_SprintA_Task03_Performance_Profiling_and_Bottleneck_Elimination/profile_optimize.py:13(<lambda>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
