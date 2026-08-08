@@ -1,0 +1,114 @@
+[
+  {
+    "document_id": "resume_1",
+    "document_type": "resume",
+    "parser_version": "0.1.0",
+    "skills": [
+      {
+        "canonical_skill": "python",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "Python3",
+            "start": 31,
+            "end": 38
+          }
+        ]
+      },
+      {
+        "canonical_skill": "sql",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "PostgreSQL",
+            "start": 40,
+            "end": 50
+          }
+        ]
+      },
+      {
+        "canonical_skill": "docker",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "Docker",
+            "start": 55,
+            "end": 61
+          }
+        ]
+      }
+    ],
+    "years_experience": 2.5
+  },
+  {
+    "document_id": "jd_1",
+    "document_type": "job_description",
+    "parser_version": "0.1.0",
+    "skills": [
+      {
+        "canonical_skill": "python",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "Python",
+            "start": 8,
+            "end": 14
+          }
+        ]
+      },
+      {
+        "canonical_skill": "machine_learning",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "machine learning",
+            "start": 63,
+            "end": 79
+          }
+        ]
+      },
+      {
+        "canonical_skill": "fastapi",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "FastAPI",
+            "start": 19,
+            "end": 26
+          }
+        ]
+      }
+    ],
+    "years_experience": 2.0
+  },
+  {
+    "document_id": "resume_2",
+    "document_type": "resume",
+    "parser_version": "0.1.0",
+    "skills": [
+      {
+        "canonical_skill": "sql",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "MySQL",
+            "start": 24,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "canonical_skill": "machine_learning",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "ML",
+            "start": 34,
+            "end": 36
+          }
+        ]
+      }
+    ],
+    "years_experience": null
+  }
+]
