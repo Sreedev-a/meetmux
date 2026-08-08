@@ -1,0 +1,14 @@
+_task_pdfs/
+
+Codex_All_PlaceMux_Tasks/
+Codex_Next_10_PlaceMux_Tasks/
+
+.venv/
+venv/
+ml_env/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.zip
+.ipynb_checkpoints/
