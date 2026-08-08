@@ -1,0 +1,27 @@
+{
+  "dataset": "unseen_holdout_v1",
+  "baseline": {
+    "threshold": 0.5,
+    "tp": 4,
+    "fp": 2,
+    "tn": 4,
+    "fn": 0,
+    "false_positive_rate": 0.3333,
+    "recall": 1.0
+  },
+  "hardened": {
+    "threshold": 0.6,
+    "tp": 4,
+    "fp": 0,
+    "tn": 6,
+    "fn": 0,
+    "false_positive_rate": 0.0,
+    "recall": 1.0
+  },
+  "false_positives_reduced_by": 2,
+  "acceptance": {
+    "fp_strictly_lower": true,
+    "recall_at_least_0_8": true
+  },
+  "passed": true
+}
