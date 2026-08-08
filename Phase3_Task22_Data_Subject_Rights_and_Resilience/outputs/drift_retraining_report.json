@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-08-08T10:07:03.794386+00:00",
+  "method": "absolute standardized mean shift",
+  "threshold": 0.5,
+  "feature_shifts": {
+    "skill_fit": 0.5794,
+    "experience_fit": 0.5798
+  },
+  "drift_detected": true,
+  "retraining": {
+    "validation_accuracy": 0.875,
+    "promotion_threshold": 0.75,
+    "promoted": true,
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "features": [
+    "skill_fit",
+    "experience_fit"
+  ],
+  "seed": 42,
+  "validation_accuracy": 0.875
+}
