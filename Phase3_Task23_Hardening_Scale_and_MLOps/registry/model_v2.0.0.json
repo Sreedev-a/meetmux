@@ -1,0 +1,20 @@
+{
+  "model_name": "recommendation_gate",
+  "version": "2.0.0",
+  "stage": "production",
+  "registered_at_utc": "2026-08-08T10:08:04.293378+00:00",
+  "artifact": "artifacts/recommendation_model_v2.bin",
+  "sha256": "fb422c78acff1063d570959e4113d3925a876a38cdf807462cfe4539c8247bc1",
+  "features": [
+    "skill_fit",
+    "experience_fit"
+  ],
+  "metrics": {
+    "validation_accuracy": 0.875
+  },
+  "lineage": {
+    "training_dataset": "training_snapshot_v2",
+    "code": "mlops.py"
+  },
+  "approved_by": "automated quality gate"
+}
