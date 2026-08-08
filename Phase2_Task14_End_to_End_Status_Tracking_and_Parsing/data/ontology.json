@@ -1,0 +1,1 @@
+{"version":"1.0.0","skills":[{"id":"skill.python","name":"python","aliases":["python3"],"domain":"software"},{"id":"skill.sql","name":"sql","aliases":["postgresql","mysql"],"domain":"data"},{"id":"skill.ml","name":"machine learning","aliases":["ml"],"domain":"ai"},{"id":"skill.fastapi","name":"fastapi","aliases":[],"domain":"software"}]}

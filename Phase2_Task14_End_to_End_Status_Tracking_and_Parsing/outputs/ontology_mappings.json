@@ -1,0 +1,42 @@
+[
+  {
+    "document_id": "r1",
+    "ontology_version": "1.0.0",
+    "mapped_skills": [
+      {
+        "skill_id": "skill.python",
+        "canonical_name": "python",
+        "domain": "software",
+        "evidence": "python3"
+      },
+      {
+        "skill_id": "skill.sql",
+        "canonical_name": "sql",
+        "domain": "data",
+        "evidence": "postgresql"
+      }
+    ],
+    "unresolved_tags": [
+      "#kubernetes"
+    ]
+  },
+  {
+    "document_id": "j1",
+    "ontology_version": "1.0.0",
+    "mapped_skills": [
+      {
+        "skill_id": "skill.ml",
+        "canonical_name": "machine learning",
+        "domain": "ai",
+        "evidence": "machine learning"
+      },
+      {
+        "skill_id": "skill.fastapi",
+        "canonical_name": "fastapi",
+        "domain": "software",
+        "evidence": "fastapi"
+      }
+    ],
+    "unresolved_tags": []
+  }
+]
