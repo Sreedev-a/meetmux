@@ -1,0 +1,4 @@
+item_id,responses,difficulty,discrimination,weak_item,flags
+i1,8,0.375,1.0,False,
+i2,8,0.625,-0.5,True,LOW_DISCRIMINATION
+i3,8,1.0,0.0,True,TOO_EASY|LOW_DISCRIMINATION

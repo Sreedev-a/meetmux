@@ -1,0 +1,31 @@
+[
+  {
+    "item_id": "i1",
+    "responses": 8,
+    "difficulty": 0.375,
+    "discrimination": 1.0,
+    "weak_item": false,
+    "flags": []
+  },
+  {
+    "item_id": "i2",
+    "responses": 8,
+    "difficulty": 0.625,
+    "discrimination": -0.5,
+    "weak_item": true,
+    "flags": [
+      "LOW_DISCRIMINATION"
+    ]
+  },
+  {
+    "item_id": "i3",
+    "responses": 8,
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "weak_item": true,
+    "flags": [
+      "TOO_EASY",
+      "LOW_DISCRIMINATION"
+    ]
+  }
+]
