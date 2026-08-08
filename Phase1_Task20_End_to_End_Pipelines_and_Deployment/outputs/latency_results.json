@@ -1,0 +1,17 @@
+{
+  "measured_at_utc": "2026-08-08T09:42:26.694892+00:00",
+  "environment": "Python 3.13.9, local Flask test client",
+  "requests": 200,
+  "mean_ms": 0.7365,
+  "median_ms": 0.7338,
+  "p95_ms": 0.7556,
+  "max_ms": 1.0956,
+  "acceptance_threshold_p95_ms": 100.0,
+  "acceptable": true,
+  "sample_response": {
+    "confidence": 0.711089,
+    "model_version": "1.0.0",
+    "prediction": 1,
+    "species": "versicolor"
+  }
+}
