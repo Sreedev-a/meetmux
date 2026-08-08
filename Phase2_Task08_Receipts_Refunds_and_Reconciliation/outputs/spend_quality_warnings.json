@@ -1,0 +1,48 @@
+[
+  {
+    "application_id": "a1",
+    "warning": false,
+    "severity": "none",
+    "match_score": 0.84,
+    "policy": {
+      "warning_below": 0.7,
+      "high_risk_below": 0.45
+    },
+    "reasons": [],
+    "requires_acknowledgement": false,
+    "action": "allow"
+  },
+  {
+    "application_id": "a2",
+    "warning": true,
+    "severity": "medium",
+    "match_score": 0.62,
+    "policy": {
+      "warning_below": 0.7,
+      "high_risk_below": 0.45
+    },
+    "reasons": [
+      "match score 0.62 is below 0.70",
+      "missing threshold: sql"
+    ],
+    "requires_acknowledgement": true,
+    "action": "allow_with_acknowledgement"
+  },
+  {
+    "application_id": "a3",
+    "warning": true,
+    "severity": "high",
+    "match_score": 0.41,
+    "policy": {
+      "warning_below": 0.7,
+      "high_risk_below": 0.45
+    },
+    "reasons": [
+      "match score 0.41 is below 0.70",
+      "missing threshold: python",
+      "missing threshold: sql"
+    ],
+    "requires_acknowledgement": true,
+    "action": "allow_with_acknowledgement"
+  }
+]

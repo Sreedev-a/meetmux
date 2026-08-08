@@ -1,0 +1,1 @@
+[{"application_id":"a1","match_score":0.84,"skill_gaps":[]},{"application_id":"a2","match_score":0.62,"skill_gaps":["sql"]},{"application_id":"a3","match_score":0.41,"skill_gaps":["python","sql"]}]
