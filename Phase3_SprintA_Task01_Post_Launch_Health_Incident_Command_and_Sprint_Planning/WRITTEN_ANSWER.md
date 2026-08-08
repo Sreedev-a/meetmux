@@ -1,0 +1,3 @@
+# Post-Launch Health, Incident Command & Sprint Planning
+
+I established a post-launch intelligence-health baseline by comparing held-out offline NDCG@5 with session-level online NDCG@5, logging the measured gap, availability, request/model versions, explanations, and fallback use. Interaction defects are ranked by quality impact multiplied by affected sessions, then converted into an owned backlog with acceptance criteria. A deliberate timeout path records a cached-ranking fallback. Because no production interaction log was available, the report uses a seeded operational fixture and must be rerun unchanged against sanitized live logs for the production hand-off.

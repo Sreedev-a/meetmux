@@ -1,0 +1,45 @@
+{
+  "data_source": "deterministic fallback fixture; replace with production logs",
+  "seed": 101,
+  "offline_heldout_ndcg_at_5": 0.9012,
+  "online_ndcg_at_5": 0.883649,
+  "offline_online_gap": 0.017551,
+  "availability": 0.973333,
+  "sessions": 120,
+  "ranked_defects": [
+    {
+      "defect": "timeout",
+      "affected_sessions": 16,
+      "mean_online_ndcg": 0.813383,
+      "gap_vs_offline": 0.087817,
+      "priority_score": 1.405066
+    },
+    {
+      "defect": "missing_skill",
+      "affected_sessions": 22,
+      "mean_online_ndcg": 0.869225,
+      "gap_vs_offline": 0.031975,
+      "priority_score": 0.703454
+    },
+    {
+      "defect": "stale_job",
+      "affected_sessions": 12,
+      "mean_online_ndcg": 0.851391,
+      "gap_vs_offline": 0.049809,
+      "priority_score": 0.597714
+    },
+    {
+      "defect": "cold_start",
+      "affected_sessions": 17,
+      "mean_online_ndcg": 0.884676,
+      "gap_vs_offline": 0.016524,
+      "priority_score": 0.280916
+    }
+  ],
+  "worked_example": {
+    "input": "session with timeout on rank 1",
+    "output": "cached eligible-job ranking",
+    "reason": "primary model unavailable; fallback=true"
+  },
+  "failure_injection_verified": true
+}

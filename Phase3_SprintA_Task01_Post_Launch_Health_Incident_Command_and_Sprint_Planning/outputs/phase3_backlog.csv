@@ -1,0 +1,5 @@
+priority,defect,owner,acceptance_criterion,status
+1,timeout,Backend/ML Reliability,Reduce gap below 0.044,owned
+2,missing_skill,Ontology/ML,Reduce gap below 0.020,owned
+3,stale_job,Data Platform,Reduce gap below 0.025,owned
+4,cold_start,Recommendations,Reduce gap below 0.020,owned

@@ -1,0 +1,5 @@
+defect,affected_sessions,mean_online_ndcg,gap_vs_offline,priority_score
+timeout,16,0.813383,0.087817,1.405066
+missing_skill,22,0.869225,0.031975,0.703454
+stale_job,12,0.851391,0.049809,0.597714
+cold_start,17,0.884676,0.016524,0.280916
