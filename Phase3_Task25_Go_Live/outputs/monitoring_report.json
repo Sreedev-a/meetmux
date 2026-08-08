@@ -1,0 +1,39 @@
+{
+  "environment": "local deterministic fallback; not production",
+  "slo": {
+    "availability": 0.995,
+    "p95_latency_ms": 100.0,
+    "min_accuracy": 0.8,
+    "min_score_stddev": 0.03
+  },
+  "windows": {
+    "normal": {
+      "metrics": {
+        "requests": 200,
+        "availability": 1.0,
+        "p95_latency_ms": 33.8624,
+        "accuracy": 0.925,
+        "score_stddev": 0.228424
+      },
+      "alerts": [],
+      "healthy": true
+    },
+    "injected_failure": {
+      "metrics": {
+        "requests": 200,
+        "availability": 0.94,
+        "p95_latency_ms": 172.0416,
+        "accuracy": 0.615,
+        "score_stddev": 0.0
+      },
+      "alerts": [
+        "PAGE_AVAILABILITY",
+        "PAGE_LATENCY",
+        "PAGE_QUALITY",
+        "PAGE_DEGENERATE_SCORES"
+      ],
+      "healthy": false
+    }
+  },
+  "failure_path_verified": true
+}

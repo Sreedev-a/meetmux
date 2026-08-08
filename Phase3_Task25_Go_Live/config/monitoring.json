@@ -1,0 +1,9 @@
+{
+  "service": "placemux-recommendation",
+  "owner": "ML Reliability Owner",
+  "window_minutes": 5,
+  "signals": ["request_count", "availability", "p95_latency_ms", "accuracy", "score_stddev", "model_version"],
+  "alert_route": "ml-reliability-oncall",
+  "dashboard_panels": ["SLO overview", "latency percentiles", "errors by model version", "score distribution", "quality by segment"],
+  "fallback": "serve cached eligible-job ranking with fallback=true"
+}
