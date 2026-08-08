@@ -1,0 +1,1 @@
+{"students":[{"id":"stu_1","skills":{"python":82,"sql":68},"experience":1.5,"locations":["Bengaluru"],"work_modes":["hybrid"]},{"id":"stu_2","skills":{"python":65,"sql":80},"experience":2,"locations":["Pune"],"work_modes":["remote"]}],"jobs":[{"id":"job_1","skills":{"python":75,"sql":70},"experience":1,"location":"Bengaluru","work_mode":"hybrid"}]}

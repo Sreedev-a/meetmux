@@ -1,0 +1,78 @@
+[
+  {
+    "student_id": "stu_1",
+    "job_id": "job_1",
+    "score": 0.99,
+    "eligible": false,
+    "contributions": {
+      "skills": 0.69,
+      "experience": 0.15,
+      "location": 0.1,
+      "work_mode": 0.05
+    },
+    "skill_evidence": [
+      {
+        "skill": "python",
+        "verified_score": 82,
+        "threshold": 75,
+        "met": true,
+        "gap": 0
+      },
+      {
+        "skill": "sql",
+        "verified_score": 68,
+        "threshold": 70,
+        "met": false,
+        "gap": 2
+      }
+    ],
+    "strengths": [
+      "python"
+    ],
+    "gaps": [
+      {
+        "skill": "sql",
+        "points_needed": 2
+      }
+    ],
+    "summary": "Meets 1 of 2 required skill thresholds."
+  },
+  {
+    "student_id": "stu_2",
+    "job_id": "job_1",
+    "score": 0.8033,
+    "eligible": false,
+    "contributions": {
+      "skills": 0.6533,
+      "experience": 0.15,
+      "location": 0.0,
+      "work_mode": 0.0
+    },
+    "skill_evidence": [
+      {
+        "skill": "python",
+        "verified_score": 65,
+        "threshold": 75,
+        "met": false,
+        "gap": 10
+      },
+      {
+        "skill": "sql",
+        "verified_score": 80,
+        "threshold": 70,
+        "met": true,
+        "gap": 0
+      }
+    ],
+    "strengths": [
+      "sql"
+    ],
+    "gaps": [
+      {
+        "skill": "python",
+        "points_needed": 10
+      }
+    ],
+    "summary": "Meets 1 of 2 required skill thresholds."
+  }
+]
