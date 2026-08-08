@@ -1,0 +1,87 @@
+[
+  {
+    "student_id": "s1",
+    "job_id": "j1",
+    "score": 0.6554,
+    "feature_values": {
+      "skill_fit": 0.8928571428571428,
+      "experience_fit": 0.5,
+      "location_fit": 0.0,
+      "work_mode_fit": 0.0
+    },
+    "weighted_contributions": {
+      "skill_fit": 0.5804,
+      "experience_fit": 0.075,
+      "location_fit": 0.0,
+      "work_mode_fit": 0.0
+    },
+    "strongest_factors": [
+      "skill_fit",
+      "experience_fit"
+    ],
+    "limiting_factors": [
+      "skill_fit",
+      "experience_fit",
+      "location_fit",
+      "work_mode_fit"
+    ],
+    "skill_evidence": [
+      {
+        "skill": "python",
+        "actual": 80,
+        "required": 75,
+        "gap": 0
+      },
+      {
+        "skill": "sql",
+        "actual": 55,
+        "required": 70,
+        "gap": 15
+      }
+    ],
+    "next_best_actions": [
+      "Improve sql by 15 points to meet the threshold.",
+      "Add Bengaluru to preferred locations.",
+      "Accept hybrid work mode."
+    ],
+    "explanation_version": "2.0.0"
+  },
+  {
+    "student_id": "s2",
+    "job_id": "j1",
+    "score": 1.0,
+    "feature_values": {
+      "skill_fit": 1.0,
+      "experience_fit": 1,
+      "location_fit": 1.0,
+      "work_mode_fit": 1.0
+    },
+    "weighted_contributions": {
+      "skill_fit": 0.65,
+      "experience_fit": 0.15,
+      "location_fit": 0.1,
+      "work_mode_fit": 0.1
+    },
+    "strongest_factors": [
+      "skill_fit",
+      "experience_fit"
+    ],
+    "limiting_factors": [],
+    "skill_evidence": [
+      {
+        "skill": "python",
+        "actual": 90,
+        "required": 75,
+        "gap": 0
+      },
+      {
+        "skill": "sql",
+        "actual": 85,
+        "required": 70,
+        "gap": 0
+      }
+    ],
+    "next_best_actions": [],
+    "explanation_version": "2.0.0"
+  }
+]
