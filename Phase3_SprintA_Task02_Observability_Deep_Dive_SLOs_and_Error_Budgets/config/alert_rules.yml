@@ -1,0 +1,16 @@
+groups:
+  - name: placemux-ml-slos
+    owner: ML Reliability Owner
+    rules:
+      - alert: InferenceLatencySLOBreach
+        expr: model_inference_latency_p95_ms > 100
+        for: 5m
+      - alert: InferenceAvailabilitySLOBreach
+        expr: model_inference_availability_ratio < 0.995
+        for: 5m
+      - alert: PredictionQualityFloorBreach
+        expr: model_labeled_quality_ratio < 0.80
+        for: 15m
+      - alert: DegenerateScoreDistribution
+        expr: model_prediction_score_stddev < 0.03
+        for: 10m

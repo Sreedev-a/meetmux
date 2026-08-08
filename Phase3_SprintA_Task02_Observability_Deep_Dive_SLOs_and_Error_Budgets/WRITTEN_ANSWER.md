@@ -1,0 +1,3 @@
+# Observability Deep-Dive, SLOs & Error Budgets
+
+I defined owned intelligence SLOs for p95 latency, availability, labeled quality, and prediction-score variance, plus a 30-day availability error budget and release policy. Executable monitoring evaluates normal and synthetic-breach windows, emits alert names aligned with deployable rules, engages a cached-ranking fallback, and plots score distributions. The normal window is clean; injected latency and degenerate-quality windows page before silent garbage reaches users. The deterministic fixture must be replaced by platform telemetry during DevOps integration.

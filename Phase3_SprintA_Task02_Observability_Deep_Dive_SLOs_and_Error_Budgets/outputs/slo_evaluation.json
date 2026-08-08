@@ -1,0 +1,63 @@
+{
+  "data_source": "deterministic operational fixture",
+  "slo": {
+    "p95_latency_ms": 100.0,
+    "availability": 0.995,
+    "min_quality": 0.8,
+    "min_score_stddev": 0.03,
+    "owner": "ML Reliability Owner"
+  },
+  "windows": {
+    "healthy": {
+      "metrics": {
+        "requests": 240,
+        "p95_latency_ms": 51.3598,
+        "availability": 1.0,
+        "quality": 0.891667,
+        "score_mean": 0.569097,
+        "score_stddev": 0.241157
+      },
+      "alerts": [],
+      "fallback_engaged": false
+    },
+    "latency_breach": {
+      "metrics": {
+        "requests": 240,
+        "p95_latency_ms": 176.003,
+        "availability": 0.979167,
+        "quality": 0.875,
+        "score_mean": 0.544694,
+        "score_stddev": 0.228468
+      },
+      "alerts": [
+        "InferenceLatencySLOBreach",
+        "InferenceAvailabilitySLOBreach"
+      ],
+      "fallback_engaged": true
+    },
+    "degenerate_quality_breach": {
+      "metrics": {
+        "requests": 240,
+        "p95_latency_ms": 53.1141,
+        "availability": 0.979167,
+        "quality": 0.670833,
+        "score_mean": 0.5,
+        "score_stddev": 0.0
+      },
+      "alerts": [
+        "InferenceAvailabilitySLOBreach",
+        "PredictionQualityFloorBreach",
+        "DegenerateScoreDistribution"
+      ],
+      "fallback_engaged": true
+    }
+  },
+  "error_budget": {
+    "period_days": 30,
+    "allowed_unavailable_minutes": 216.0,
+    "observed_equivalent_minutes": 0.208,
+    "percent_consumed": 0.0965,
+    "policy": "freeze risky releases at >=100%; investigate at >=50%"
+  },
+  "synthetic_breach_verified": true
+}
