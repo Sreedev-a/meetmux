@@ -1,0 +1,53 @@
+{
+  "status": "UNDERWAY",
+  "scope": "offline recommendation selection audit",
+  "limitations": [
+    "small synthetic sample",
+    "association is not causation",
+    "requires legal/domain review"
+  ],
+  "by_region": {
+    "north": {
+      "n": 4,
+      "selection_rate": 0.5,
+      "mean_score": 0.7025,
+      "false_negative_rate": 0.3333,
+      "disparate_impact_ratio": 0.6667,
+      "review_flag": true
+    },
+    "south": {
+      "n": 4,
+      "selection_rate": 0.75,
+      "mean_score": 0.6925,
+      "false_negative_rate": 0.0,
+      "disparate_impact_ratio": 1.0,
+      "review_flag": true
+    },
+    "east": {
+      "n": 4,
+      "selection_rate": 0.25,
+      "mean_score": 0.68,
+      "false_negative_rate": 0.6667,
+      "disparate_impact_ratio": 0.3333,
+      "review_flag": true
+    }
+  },
+  "by_first_generation": {
+    "yes": {
+      "n": 6,
+      "selection_rate": 0.5,
+      "mean_score": 0.715,
+      "false_negative_rate": 0.5,
+      "disparate_impact_ratio": 1.0,
+      "review_flag": true
+    },
+    "no": {
+      "n": 6,
+      "selection_rate": 0.5,
+      "mean_score": 0.6683,
+      "false_negative_rate": 0.0,
+      "disparate_impact_ratio": 1.0,
+      "review_flag": true
+    }
+  }
+}
