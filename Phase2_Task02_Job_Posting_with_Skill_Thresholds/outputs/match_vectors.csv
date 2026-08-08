@@ -1,0 +1,13 @@
+student_id,job_id,skill,student_score,threshold,required
+stu_101,job_201,fastapi,0.68,0.5,0
+stu_101,job_201,python,0.88,0.7,1
+stu_101,job_201,sql,0.75,0.65,1
+stu_101,job_202,machine_learning,0.0,0.7,1
+stu_101,job_202,python,0.88,0.6,1
+stu_101,job_202,sql,0.75,0.55,0
+stu_102,job_201,fastapi,0.0,0.5,0
+stu_102,job_201,python,0.62,0.7,1
+stu_102,job_201,sql,0.84,0.65,1
+stu_102,job_202,machine_learning,0.73,0.7,1
+stu_102,job_202,python,0.62,0.6,1
+stu_102,job_202,sql,0.84,0.55,0

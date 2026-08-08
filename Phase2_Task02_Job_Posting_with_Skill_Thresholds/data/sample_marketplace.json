@@ -1,0 +1,10 @@
+{
+  "students": [
+    {"student_id":"stu_101","verified_skills":{"Python3":88,"Postgres":75,"FastAPI":68}},
+    {"student_id":"stu_102","verified_skills":{"Python":62,"SQL":84,"ML":73}}
+  ],
+  "jobs": [
+    {"job_id":"job_201","required_skills":{"Python":70,"SQL":65},"optional_skills":{"FastAPI":50}},
+    {"job_id":"job_202","required_skills":{"Machine-Learning":70,"Python":60},"optional_skills":{"SQL":55}}
+  ]
+}

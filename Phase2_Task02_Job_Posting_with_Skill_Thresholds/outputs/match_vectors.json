@@ -1,0 +1,98 @@
+[
+  {
+    "student_id": "stu_101",
+    "job_id": "job_201",
+    "vocabulary": [
+      "fastapi",
+      "python",
+      "sql"
+    ],
+    "student_vector": [
+      0.68,
+      0.88,
+      0.75
+    ],
+    "threshold_vector": [
+      0.5,
+      0.7,
+      0.65
+    ],
+    "required_mask": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "student_id": "stu_101",
+    "job_id": "job_202",
+    "vocabulary": [
+      "machine_learning",
+      "python",
+      "sql"
+    ],
+    "student_vector": [
+      0.0,
+      0.88,
+      0.75
+    ],
+    "threshold_vector": [
+      0.7,
+      0.6,
+      0.55
+    ],
+    "required_mask": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "student_id": "stu_102",
+    "job_id": "job_201",
+    "vocabulary": [
+      "fastapi",
+      "python",
+      "sql"
+    ],
+    "student_vector": [
+      0.0,
+      0.62,
+      0.84
+    ],
+    "threshold_vector": [
+      0.5,
+      0.7,
+      0.65
+    ],
+    "required_mask": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "student_id": "stu_102",
+    "job_id": "job_202",
+    "vocabulary": [
+      "machine_learning",
+      "python",
+      "sql"
+    ],
+    "student_vector": [
+      0.73,
+      0.62,
+      0.84
+    ],
+    "threshold_vector": [
+      0.7,
+      0.6,
+      0.55
+    ],
+    "required_mask": [
+      1,
+      1,
+      0
+    ]
+  }
+]
