@@ -1,0 +1,119 @@
+{
+  "cases": [
+    {
+      "case": "eligible_best_fit",
+      "passed": true,
+      "checks": {
+        "expected_top": true,
+        "scores_bounded": true,
+        "explanations_present": true
+      },
+      "ranking": [
+        {
+          "job_id": "j1",
+          "score": 1.0,
+          "eligible": true,
+          "explanation": {
+            "skill_attainment": {
+              "python": 1,
+              "sql": 1
+            },
+            "gaps": {}
+          }
+        },
+        {
+          "job_id": "j2",
+          "score": 0.7542,
+          "eligible": false,
+          "explanation": {
+            "skill_attainment": {
+              "python": 0.9444444444444444,
+              "sql": 0.9411764705882353
+            },
+            "gaps": {
+              "python": 5,
+              "sql": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "remote_preference_breaks_skill_tie",
+      "passed": true,
+      "checks": {
+        "expected_top": true,
+        "scores_bounded": true,
+        "explanations_present": true
+      },
+      "ranking": [
+        {
+          "job_id": "j4",
+          "score": 1.0,
+          "eligible": true,
+          "explanation": {
+            "skill_attainment": {
+              "python": 1
+            },
+            "gaps": {}
+          }
+        },
+        {
+          "job_id": "j3",
+          "score": 0.8,
+          "eligible": true,
+          "explanation": {
+            "skill_attainment": {
+              "python": 1
+            },
+            "gaps": {}
+          }
+        }
+      ]
+    },
+    {
+      "case": "gap_is_explained",
+      "passed": true,
+      "checks": {
+        "expected_top": true,
+        "scores_bounded": true,
+        "explanations_present": true
+      },
+      "ranking": [
+        {
+          "job_id": "j5",
+          "score": 0.8791,
+          "eligible": false,
+          "explanation": {
+            "skill_attainment": {
+              "python": 0.9285714285714286,
+              "sql": 0.7692307692307693
+            },
+            "gaps": {
+              "python": 5,
+              "sql": 15
+            }
+          }
+        },
+        {
+          "job_id": "j6",
+          "score": 0.5111,
+          "eligible": false,
+          "explanation": {
+            "skill_attainment": {
+              "python": 0.7222222222222222,
+              "sql": 0.5555555555555556
+            },
+            "gaps": {
+              "python": 25,
+              "sql": 40
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "passed": 3,
+  "total": 3,
+  "integration_valid": true
+}
