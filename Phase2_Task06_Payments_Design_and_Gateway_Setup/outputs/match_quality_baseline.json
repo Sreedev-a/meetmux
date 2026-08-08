@@ -1,0 +1,30 @@
+{
+  "baseline_version": "pre_paywall_v1",
+  "query_count": 3,
+  "per_query": {
+    "q1": {
+      "ndcg_at_3": 0.765361,
+      "precision_at_3": 0.666667,
+      "recall_at_3": 0.666667,
+      "mrr": 1.0
+    },
+    "q2": {
+      "ndcg_at_3": 0.919721,
+      "precision_at_3": 0.666667,
+      "recall_at_3": 1.0,
+      "mrr": 1.0
+    },
+    "q3": {
+      "ndcg_at_3": 0.693426,
+      "precision_at_3": 0.666667,
+      "recall_at_3": 1.0,
+      "mrr": 0.5
+    }
+  },
+  "aggregate": {
+    "ndcg_at_3": 0.792836,
+    "precision_at_3": 0.666667,
+    "recall_at_3": 0.888889,
+    "mrr": 0.833333
+  }
+}
