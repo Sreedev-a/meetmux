@@ -1,0 +1,50 @@
+{
+  "load": {
+    "requests": 400,
+    "concurrency": 8,
+    "duration_s": 0.066378,
+    "qps": 6026.059,
+    "availability": 1.0,
+    "fallback_rate": 0.0,
+    "p95_latency_ms": 1.385042,
+    "quality": 1.0
+  },
+  "slos": {
+    "p95_latency_ms_max": 100,
+    "availability_min": 0.995,
+    "quality_min": 0.8,
+    "fallback_rate_max": 0.01
+  },
+  "failure_injection": {
+    "fallback": true,
+    "reason": "injected_model_failure",
+    "response_count": 3
+  },
+  "monitoring_endpoint": {
+    "availability": 0.9975062344139651,
+    "fallback_rate": 0.0024937655860349127,
+    "p95_latency_ms": 1.3850420000380836,
+    "requests": 401
+  },
+  "headroom": {
+    "source": "Sprint A Task 4 executed report",
+    "sha256": "cd4683b59fda7d1fbb38ac8d20b6e5dd01a0c1f6fcb8288986a4c07f1940c770",
+    "breaking_concurrency": 16,
+    "headroom_percent": 100.0
+  },
+  "checks": {
+    "p95_slo": true,
+    "availability_slo": true,
+    "quality_floor": true,
+    "fallback_rate": true,
+    "forced_failure_fallback": true,
+    "headroom_at_least_50_percent": true,
+    "monitoring_live": true
+  },
+  "decision": "SIGNED_OFF_LOCAL_SCALE_BASELINE",
+  "owner": "ML Reliability Owner",
+  "residual_risks": [
+    "Production traffic and infrastructure may differ from local fixture",
+    "Production observability deployment remains an external DevOps action"
+  ]
+}
