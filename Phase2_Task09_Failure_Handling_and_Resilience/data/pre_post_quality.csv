@@ -1,0 +1,7 @@
+query_id,segment,pre_ndcg,post_ndcg
+q1,fresher,0.82,0.83
+q2,fresher,0.76,0.75
+q3,experienced,0.88,0.89
+q4,experienced,0.79,0.79
+q5,remote,0.74,0.75
+q6,remote,0.81,0.80

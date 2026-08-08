@@ -1,0 +1,15 @@
+{
+  "metric": "NDCG@3",
+  "queries": 6,
+  "allowed_delta": -0.02,
+  "mean_pre": 0.8,
+  "mean_post": 0.801667,
+  "mean_delta": 0.001667,
+  "segment_deltas": {
+    "fresher": 0.0,
+    "experienced": 0.005,
+    "remote": 0.0
+  },
+  "relevance_regression": false,
+  "release_decision": "pass"
+}
