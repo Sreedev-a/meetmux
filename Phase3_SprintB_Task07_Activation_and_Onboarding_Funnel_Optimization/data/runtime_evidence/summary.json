@@ -1,0 +1,407 @@
+{
+  "data_provenance": "controlled runtime candidate/job inventory; repository has no genuine first-session outcomes",
+  "fresh_candidate": {
+    "candidate_id": "fresh_candidate_001",
+    "interaction_count": 0,
+    "onboarding": {
+      "candidate_id": "fresh_candidate_001",
+      "verified_scores": {
+        "Python Programming": 0.88,
+        "SQL": 0.76,
+        "ML": 0.71
+      },
+      "preferred_roles": [
+        "machine learning",
+        "data_analysis"
+      ],
+      "preferred_locations": [
+        "Bengaluru",
+        "Remote"
+      ],
+      "experience_level": "entry",
+      "employment_types": [
+        "full_time",
+        "internship"
+      ],
+      "interaction_count": 0
+    }
+  },
+  "inventory_jobs": 11,
+  "active_unexpired_jobs": 10,
+  "k": 5,
+  "exploration_fraction": 0.2,
+  "baseline_ids": [
+    "job_02",
+    "job_01",
+    "job_09",
+    "job_03",
+    "job_06"
+  ],
+  "primary_response": {
+    "candidate_id": "fresh_candidate_001",
+    "user_state": "cold_start",
+    "ranking_id": "rank_dc6cab01ade04877a331a01fa4f6959a",
+    "model_name": "cold_start_ranker",
+    "model_version": "cold-start-v1",
+    "fallback_used": false,
+    "fallback_tier": null,
+    "reason": null,
+    "recommendations": [
+      {
+        "job_id": "job_01",
+        "position": 1,
+        "score": 0.9897,
+        "source": "personalized_cold_start",
+        "exploration": false,
+        "reason": "Recommended because verified machine_learning, python meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "machine_learning",
+          "python"
+        ],
+        "skill_gaps": [],
+        "impression_id": "imp_3b2e2fc1cfcb4560a483edeaaadb998b"
+      },
+      {
+        "job_id": "job_02",
+        "position": 2,
+        "score": 0.9835,
+        "source": "personalized_cold_start",
+        "exploration": false,
+        "reason": "Recommended because verified python, sql meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "python",
+          "sql"
+        ],
+        "skill_gaps": [],
+        "impression_id": "imp_4f801bd95c354a28ae16bbd0df442235"
+      },
+      {
+        "job_id": "job_08",
+        "position": 3,
+        "score": 0.9798,
+        "source": "personalized_cold_start",
+        "exploration": false,
+        "reason": "Recommended because verified machine_learning, python meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "machine_learning",
+          "python"
+        ],
+        "skill_gaps": [],
+        "impression_id": "imp_0ac2facb79cb48b49f01f0e39fd080fa"
+      },
+      {
+        "job_id": "job_04",
+        "position": 4,
+        "score": 0.9788,
+        "source": "personalized_cold_start",
+        "exploration": false,
+        "reason": "Recommended because verified python, sql meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "python",
+          "sql"
+        ],
+        "skill_gaps": [],
+        "impression_id": "imp_356b2f1c60a94066a54720ede695b1a0"
+      },
+      {
+        "job_id": "job_10",
+        "position": 5,
+        "score": 0.7334,
+        "source": "exploration",
+        "exploration": true,
+        "reason": "Recommended because verified sql meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "sql"
+        ],
+        "skill_gaps": [
+          "data_analysis"
+        ],
+        "impression_id": "imp_ff274bd9c82e433c87fa5370c302fc1a"
+      }
+    ]
+  },
+  "task6_impressions": 5,
+  "failure_response": {
+    "candidate_id": "fresh_candidate_001",
+    "user_state": "cold_start",
+    "ranking_id": "rank_266b5635de6942029c5499f68a42f180",
+    "model_name": "cold_start_fallback",
+    "model_version": "cold-start-fallback-v1",
+    "fallback_used": true,
+    "fallback_tier": 1,
+    "reason": "forced_model_failure",
+    "recommendations": [
+      {
+        "job_id": "job_02",
+        "position": 1,
+        "score": 0.9835,
+        "source": "popular_fallback",
+        "exploration": false,
+        "reason": "Recommended because verified python, sql meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "python",
+          "sql"
+        ],
+        "skill_gaps": [],
+        "impression_id": null
+      },
+      {
+        "job_id": "job_01",
+        "position": 2,
+        "score": 0.9897,
+        "source": "popular_fallback",
+        "exploration": false,
+        "reason": "Recommended because verified machine_learning, python meet requirements; role preference matches; location preference matches.",
+        "matched_skills": [
+          "machine_learning",
+          "python"
+        ],
+        "skill_gaps": [],
+        "impression_id": null
+      },
+      {
+        "job_id": "job_09",
+        "position": 3,
+        "score": 0.1682,
+        "source": "popular_fallback",
+        "exploration": false,
+        "reason": "Recommended because eligible quality job for profile discovery.",
+        "matched_skills": [],
+        "skill_gaps": [
+          "linux"
+        ],
+        "impression_id": null
+      },
+      {
+        "job_id": "job_03",
+        "position": 4,
+        "score": 0.8099,
+        "source": "popular_fallback",
+        "exploration": false,
+        "reason": "Recommended because verified python meet requirements; location preference matches.",
+        "matched_skills": [
+          "python"
+        ],
+        "skill_gaps": [],
+        "impression_id": null
+      },
+      {
+        "job_id": "job_06",
+        "position": 5,
+        "score": 0.8045,
+        "source": "popular_fallback",
+        "exploration": false,
+        "reason": "Recommended because verified python, sql meet requirements; location preference matches.",
+        "matched_skills": [
+          "python",
+          "sql"
+        ],
+        "skill_gaps": [],
+        "impression_id": null
+      }
+    ]
+  },
+  "profile_coverage": [
+    {
+      "profile": "rich",
+      "count": 5,
+      "fallback": false,
+      "tier": null
+    },
+    {
+      "profile": "partial",
+      "count": 5,
+      "fallback": false,
+      "tier": null
+    },
+    {
+      "profile": "scores_only",
+      "count": 5,
+      "fallback": false,
+      "tier": null
+    },
+    {
+      "profile": "role_only",
+      "count": 5,
+      "fallback": false,
+      "tier": null
+    },
+    {
+      "profile": "minimal",
+      "count": 5,
+      "fallback": false,
+      "tier": null
+    },
+    {
+      "profile": "unknown_skill",
+      "count": 5,
+      "fallback": false,
+      "tier": null
+    },
+    {
+      "profile": "forced_failure",
+      "count": 5,
+      "fallback": true,
+      "tier": 1
+    }
+  ],
+  "non_empty_rate": 1.0,
+  "fallback_rate": 0.14285714285714285,
+  "source_mix": {
+    "personalized_cold_start": 24,
+    "exploration": 6,
+    "popular_fallback": 5
+  },
+  "evaluation": {
+    "method": "controlled held-out engineering fixture; no training/tuning and no behavioural outcomes",
+    "users": 4,
+    "jobs": 11,
+    "k": 5,
+    "per_candidate": [
+      {
+        "candidate_id": "eval_ml",
+        "baseline": [
+          "job_02",
+          "job_01",
+          "job_09",
+          "job_03",
+          "job_06"
+        ],
+        "cold_start": [
+          "job_01",
+          "job_08",
+          "job_03",
+          "job_07",
+          "job_05"
+        ],
+        "relevant": [
+          "job_01",
+          "job_04",
+          "job_08"
+        ],
+        "baseline_ndcg": 0.2960819109658652,
+        "cold_start_ndcg": 0.7653606369886217,
+        "baseline_recall": 0.3333333333333333,
+        "cold_start_recall": 0.6666666666666666,
+        "baseline_precision": 0.2,
+        "cold_start_precision": 0.4,
+        "baseline_mrr": 0.5,
+        "cold_start_mrr": 1.0
+      },
+      {
+        "candidate_id": "eval_data",
+        "baseline": [
+          "job_02",
+          "job_01",
+          "job_09",
+          "job_03",
+          "job_06"
+        ],
+        "cold_start": [
+          "job_02",
+          "job_05",
+          "job_03",
+          "job_06",
+          "job_01"
+        ],
+        "relevant": [
+          "job_02",
+          "job_10"
+        ],
+        "baseline_ndcg": 0.6131471927654584,
+        "cold_start_ndcg": 0.6131471927654584,
+        "baseline_recall": 0.5,
+        "cold_start_recall": 0.5,
+        "baseline_precision": 0.2,
+        "cold_start_precision": 0.2,
+        "baseline_mrr": 1.0,
+        "cold_start_mrr": 1.0
+      },
+      {
+        "candidate_id": "eval_backend",
+        "baseline": [
+          "job_02",
+          "job_01",
+          "job_09",
+          "job_03",
+          "job_06"
+        ],
+        "cold_start": [
+          "job_03",
+          "job_07",
+          "job_01",
+          "job_06",
+          "job_05"
+        ],
+        "relevant": [
+          "job_03"
+        ],
+        "baseline_ndcg": 0.43067655807339306,
+        "cold_start_ndcg": 1.0,
+        "baseline_recall": 1.0,
+        "cold_start_recall": 1.0,
+        "baseline_precision": 0.2,
+        "cold_start_precision": 0.2,
+        "baseline_mrr": 0.25,
+        "cold_start_mrr": 1.0
+      },
+      {
+        "candidate_id": "eval_engineer",
+        "baseline": [
+          "job_02",
+          "job_01",
+          "job_09",
+          "job_03",
+          "job_06"
+        ],
+        "cold_start": [
+          "job_06",
+          "job_03",
+          "job_02",
+          "job_04",
+          "job_08"
+        ],
+        "relevant": [
+          "job_06"
+        ],
+        "baseline_ndcg": 0.38685280723454163,
+        "cold_start_ndcg": 1.0,
+        "baseline_recall": 1.0,
+        "cold_start_recall": 1.0,
+        "baseline_precision": 0.2,
+        "cold_start_precision": 0.2,
+        "baseline_mrr": 0.2,
+        "cold_start_mrr": 1.0
+      }
+    ],
+    "baseline": {
+      "ndcg_at_5": 0.4316896172598146,
+      "recall_at_5": 0.7083333333333334,
+      "precision_at_5": 0.2,
+      "mrr": 0.4875
+    },
+    "cold_start": {
+      "ndcg_at_5": 0.84462695743852,
+      "recall_at_5": 0.7916666666666666,
+      "precision_at_5": 0.25,
+      "mrr": 1.0
+    }
+  },
+  "offline_ndcg_absolute_lift": 0.4129373401787054,
+  "offline_ndcg_relative_lift": 0.9565607410246724,
+  "online_action_lift": null,
+  "run": {
+    "run_id": "cold_start_controlled_v1",
+    "timestamp": "2026-08-10T12:16:14.962398+00:00",
+    "random_seed": 42,
+    "model_version": "cold-start-v1",
+    "weights": {
+      "skills": 0.5,
+      "role": 0.18,
+      "location": 0.12,
+      "experience": 0.08,
+      "quality": 0.07,
+      "freshness": 0.05
+    }
+  }
+}
