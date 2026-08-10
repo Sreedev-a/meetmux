@@ -1,0 +1,109 @@
+{
+  "runtime_source": "existing Sprint A recommendation service called through InstrumentedRanker",
+  "interaction_source": "controlled interaction simulation",
+  "ranking_requests": 150,
+  "unique_ranking_ids": 150,
+  "unique_impression_ids": 599,
+  "event_counts": {
+    "impression": 599,
+    "click": 169,
+    "apply": 84,
+    "shortlist": 32
+  },
+  "funnel_metrics": {
+    "ctr": 0.28213689482470783,
+    "apply_rate_per_impression": 0.14023372287145242,
+    "apply_rate_per_click": 0.4970414201183432,
+    "shortlist_rate_per_application": 0.38095238095238093,
+    "shortlist_rate_per_impression": 0.05342237061769616
+  },
+  "coverage": {
+    "impressions": 599,
+    "position_valid": 599,
+    "position_coverage": 1.0,
+    "model_version_present": 599,
+    "model_version_coverage": 1.0,
+    "unique_event_ids": 884,
+    "total_events": 884,
+    "schema_validation_rate": 1.0
+  },
+  "joinability": {
+    "click_total": 169,
+    "click_join_rate": 1.0,
+    "click_orphans": [],
+    "apply_total": 84,
+    "apply_join_rate": 1.0,
+    "apply_orphans": [],
+    "shortlist_total": 32,
+    "shortlist_join_rate": 1.0,
+    "shortlist_orphans": [],
+    "overall_join_rate": 1.0
+  },
+  "metrics_by_position": {
+    "1": {
+      "impressions": 150,
+      "clicks": 78,
+      "applies": 38,
+      "shortlists": 10,
+      "ctr": 0.52,
+      "apply_rate": 0.25333333333333335,
+      "shortlist_rate": 0.06666666666666667
+    },
+    "2": {
+      "impressions": 150,
+      "clicks": 45,
+      "applies": 25,
+      "shortlists": 11,
+      "ctr": 0.3,
+      "apply_rate": 0.16666666666666666,
+      "shortlist_rate": 0.07333333333333333
+    },
+    "3": {
+      "impressions": 150,
+      "clicks": 27,
+      "applies": 13,
+      "shortlists": 9,
+      "ctr": 0.18,
+      "apply_rate": 0.08666666666666667,
+      "shortlist_rate": 0.06
+    },
+    "4": {
+      "impressions": 149,
+      "clicks": 19,
+      "applies": 8,
+      "shortlists": 2,
+      "ctr": 0.12751677852348994,
+      "apply_rate": 0.053691275167785234,
+      "shortlist_rate": 0.013422818791946308
+    }
+  },
+  "metrics_by_model_version": {
+    "2.0.0": {
+      "impressions": 596,
+      "clicks": 168,
+      "applies": 84,
+      "shortlists": 32,
+      "ctr": 0.28187919463087246,
+      "apply_rate": 0.14093959731543623,
+      "shortlist_rate": 0.053691275167785234
+    },
+    "fallback-v1": {
+      "impressions": 3,
+      "clicks": 1,
+      "applies": 0,
+      "shortlists": 0,
+      "ctr": 0.3333333333333333,
+      "apply_rate": 0.0,
+      "shortlist_rate": 0.0
+    }
+  },
+  "model_versions": [
+    "2.0.0",
+    "fallback-v1"
+  ],
+  "timestamp_start": "2026-08-10T11:24:33.213641+00:00",
+  "timestamp_end": "2026-08-10T11:24:34.336767+00:00",
+  "fallback_ranking_id": "rank_09e1dcee59724b52a6333022b308d05c",
+  "fallback_result_count": 3,
+  "trace_impression_id": "imp_b68f9933efb449be9b5de0611c9e41ea"
+}
