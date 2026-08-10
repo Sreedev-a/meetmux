@@ -1,0 +1,9 @@
+sample_id,mean radius,mean texture,mean perimeter,target,label
+0,17.99,10.38,122.8,0,malignant
+1,20.57,17.77,132.9,0,malignant
+19,13.54,14.36,87.46,1,benign
+20,13.08,15.71,85.63,1,benign
+100,13.61,24.98,88.05,0,malignant
+200,12.23,19.56,78.54,1,benign
+300,19.53,18.9,129.5,0,malignant
+500,15.04,16.74,98.73,1,benign

@@ -1,0 +1,31 @@
+feature,dtype,non_null_count,missing_count,missing_percentage,unique_count,unique_percentage,min,max,mean,median,std,candidate_status,reason
+mean radius,float64,569,0,0.0,456,80.1406,6.981,28.11,14.127291739894552,13.37,3.5240488262120775,KEEP,valid pre-diagnosis numeric measurement
+mean texture,float64,569,0,0.0,479,84.1828,9.71,39.28,19.289648506151142,18.84,4.301035768166949,KEEP,valid pre-diagnosis numeric measurement
+mean perimeter,float64,569,0,0.0,522,91.7399,43.79,188.5,91.96903339191564,86.24,24.298981038754906,KEEP,valid pre-diagnosis numeric measurement
+mean area,float64,569,0,0.0,539,94.7276,143.5,2501.0,654.8891036906855,551.1,351.914129181653,KEEP,valid pre-diagnosis numeric measurement
+mean smoothness,float64,569,0,0.0,474,83.304,0.05263,0.1634,0.0963602811950791,0.09587,0.01406412813767362,KEEP,valid pre-diagnosis numeric measurement
+mean compactness,float64,569,0,0.0,537,94.3761,0.01938,0.3454,0.10434098418277679,0.09263,0.052812757932512194,KEEP,valid pre-diagnosis numeric measurement
+mean concavity,float64,569,0,0.0,537,94.3761,0.0,0.4268,0.0887993158172232,0.06154,0.07971980870789348,KEEP,valid pre-diagnosis numeric measurement
+mean concave points,float64,569,0,0.0,542,95.2548,0.0,0.2012,0.04891914586994728,0.0335,0.038802844859153605,KEEP,valid pre-diagnosis numeric measurement
+mean symmetry,float64,569,0,0.0,432,75.9227,0.106,0.304,0.18116186291739894,0.1792,0.027414281336035715,KEEP,valid pre-diagnosis numeric measurement
+mean fractal dimension,float64,569,0,0.0,499,87.6977,0.04996,0.09744,0.06279760984182776,0.06154,0.007060362795084459,KEEP,valid pre-diagnosis numeric measurement
+radius error,float64,569,0,0.0,540,94.9033,0.1115,2.873,0.40517205623901575,0.3242,0.2773127329861039,KEEP,valid pre-diagnosis numeric measurement
+texture error,float64,569,0,0.0,519,91.2127,0.3602,4.885,1.2168534270650264,1.108,0.5516483926172023,KEEP,valid pre-diagnosis numeric measurement
+perimeter error,float64,569,0,0.0,533,93.6731,0.757,21.98,2.8660592267135327,2.287,2.0218545540421076,KEEP,valid pre-diagnosis numeric measurement
+area error,float64,569,0,0.0,528,92.7944,6.802,542.2,40.337079086116,24.53,45.49100551613181,KEEP,valid pre-diagnosis numeric measurement
+smoothness error,float64,569,0,0.0,547,96.1336,0.001713,0.03113,0.007040978910369069,0.00638,0.0030025179438390656,KEEP,valid pre-diagnosis numeric measurement
+compactness error,float64,569,0,0.0,541,95.0791,0.002252,0.1354,0.025478138840070295,0.02045,0.017908179325677388,KEEP,valid pre-diagnosis numeric measurement
+concavity error,float64,569,0,0.0,533,93.6731,0.0,0.396,0.03189371634446397,0.02589,0.03018606032298841,KEEP,valid pre-diagnosis numeric measurement
+concave points error,float64,569,0,0.0,507,89.1037,0.0,0.05279,0.011796137082601054,0.01093,0.006170285174046869,KEEP,valid pre-diagnosis numeric measurement
+symmetry error,float64,569,0,0.0,498,87.522,0.007882,0.07895,0.02054229876977153,0.01873,0.008266371528798399,KEEP,valid pre-diagnosis numeric measurement
+fractal dimension error,float64,569,0,0.0,545,95.7821,0.0008948,0.02984,0.0037949038664323374,0.003187,0.002646070967089195,KEEP,valid pre-diagnosis numeric measurement
+worst radius,float64,569,0,0.0,457,80.3163,7.93,36.04,16.269189806678387,14.97,4.833241580469323,KEEP,valid pre-diagnosis numeric measurement
+worst texture,float64,569,0,0.0,511,89.8067,12.02,49.54,25.677223198594024,25.41,6.146257623038319,KEEP,valid pre-diagnosis numeric measurement
+worst perimeter,float64,569,0,0.0,514,90.3339,50.41,251.2,107.26121265377857,97.66,33.602542269036356,KEEP,valid pre-diagnosis numeric measurement
+worst area,float64,569,0,0.0,544,95.6063,185.2,4254.0,880.5831282952548,686.5,569.356992669949,KEEP,valid pre-diagnosis numeric measurement
+worst smoothness,float64,569,0,0.0,411,72.232,0.07117,0.2226,0.13236859402460457,0.1313,0.022832429404835465,KEEP,valid pre-diagnosis numeric measurement
+worst compactness,float64,569,0,0.0,529,92.9701,0.02729,1.058,0.25426504393673116,0.2119,0.157336488913742,KEEP,valid pre-diagnosis numeric measurement
+worst concavity,float64,569,0,0.0,539,94.7276,0.0,1.252,0.27218848330404216,0.2267,0.2086242806081323,KEEP,valid pre-diagnosis numeric measurement
+worst concave points,float64,569,0,0.0,492,86.4675,0.0,0.291,0.11460622319859401,0.09993,0.06573234119594207,KEEP,valid pre-diagnosis numeric measurement
+worst symmetry,float64,569,0,0.0,500,87.8735,0.1565,0.6638,0.2900755711775044,0.2822,0.061867467537518685,KEEP,valid pre-diagnosis numeric measurement
+worst fractal dimension,float64,569,0,0.0,535,94.0246,0.05504,0.2075,0.0839458172231986,0.08004,0.018061267348893986,KEEP,valid pre-diagnosis numeric measurement

@@ -1,0 +1,3 @@
+# Feature Profile Summary
+
+All 30 candidate predictors are numeric measurements computed from digitized fine-needle aspirate images. All 30 are marked **KEEP**: there are 0 missing values, no constant columns, and 0 duplicate complete rows. Ranges differ substantially, so scale-sensitive models require training-only standardization. Several radius, perimeter and area variants are highly correlated by construction; they remain at this scoping stage because correlation alone is not leakage, but regularization or later redundancy analysis is recommended. Raw variance is unit-dependent and is visualized only as a range diagnostic, not feature importance.
